@@ -4,3 +4,183 @@
     outline: 0px;
     box-sizing: border-box;
 }
+.size{
+    padding: 56px 100px;
+}
+span {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+/* ===================== Header CSs ====================== */
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #0A2640;
+    padding: 56px 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+nav ul{
+list-style: none;
+
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Open sans;
+    /* width: 61px; */
+    padding: 10px 30px;
+}
+#btn_login {
+    
+   
+}
+#btn_login a {
+    color: #0A2640;
+    font-weight: bold;
+    width: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.content_header{
+    display: flex;
+    padding: 50px 0px;
+}
+.content_header_left {
+    max-width: 60%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.content_header_left h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    
+
+}
+.content_left {
+    margin-right: 80px;
+}
+.content_left p{
+    color: #f1f1f1;
+    font-size: 18px;
+    padding: 12px 0px;
+}
+.btn_header {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0px;
+}
+#btn_buy {
+    background-color: #69E6A6;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: bold;
+    height: 53px;
+    border-radius: 30px;
+   
+    text-decoration: none;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    line-height: 53px;
+}
+#btn_explore {
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 20px;
+    width: 150px;
+    height: 53px;
+    border-radius: 56px;
+    border: 2px solid #F1F1F1;
+    text-align: center;
+    line-height: 53px;
+}
+.content_header_right{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+
+
+.right_images{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* ===================== Service CSs ====================== */
+.service_title{
+    width: 842px;
+    margin: 0 auto;
+}
+.service_title span {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    display: block;
+}
+.service_title h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: lighter;
+    padding: 20px 0px 0px;
+}
+.features{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.feature{
+    height: 354px;
+    width: 300px;
+}
+.feature img {
+    width: 100%;
+    height: 354px;
+}
+.feature h3 {
+    color: #000000;
+    font-family: sans-serif;
+    padding: 18px 0px 6px 0px;
+}
+.feature p {
+    color: gray;
+    font-family: sans-serif;
+    /* padding: 18px 0px 6px 0px; */
+}
+.btn_feature{
+    display: flex;
+}
+.btn_feature a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A2640;
+    display: block;
+    margin-top: 8px;
+}
+/* .btn_feature img{
+    width: 20px;
+    height: 20px;
+} */
