@@ -7,11 +7,11 @@
 .size{
     padding: 56px 100px;
 }
-span {
-    color: #FFFFFF;
+/* span {
+    color: #9a8989;
     text-transform: capitalize;
     font-size: 26px;
-}
+} */
 /* ===================== Header CSs ====================== */
 header {
     width: 100%;
@@ -128,9 +128,7 @@ nav ul li a {
 }
 
 /* ===================== Service CSs ====================== */
-.service{
-    padding: 100px;
-}
+
 .service_title{
     width: 842px;
     margin: 0 auto;
@@ -150,7 +148,7 @@ nav ul li a {
 }
 .features{
     display: flex;
-    gap: 60px;
+    
     justify-content: center;
     margin: 80px 0px;
 }
@@ -159,12 +157,15 @@ nav ul li a {
     justify-content: space-between;
     margin: 80px 0px;
 }
+.feature {
+    width: 320px;
+}
 .content_feature{
     padding: 20px 0px;
 }
 .feature img {
-    width:300px;
-    height: 354px;
+    width: 100%;
+    height: 366px;
 }
 .feature h3 {
     color: #000000;
@@ -193,6 +194,9 @@ nav ul li a {
 } */
 
 /* ===================== Customer Connection CSs ====================== */
+.container_customer_connection{
+
+}
 .container {
     display: flex;
    
@@ -217,6 +221,203 @@ nav ul li a {
     width: 100%;
     height: 506px;
 } */
-.right_customer_data{
+.right_customer_data {
+    display: flex;
+    padding-left: 80px;
+}
+.right_content {
+    width: 100%;
+    margin: auto 0px;
+}
+
+
+.right_content h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.right_content ul {
+    margin-top: 20px;
+}
+
+.right_content ul li {
+   list-style: none;
+    font-size: 24px;
     
+   padding: 14px 45px;
+    background-image: url("/img/logo/Group\ 210.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    
+  }
+  .right_content a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px 40px;
+    background: #0A2640;
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: cursive;
+}
+/* connection second */
+.gustomer_container {
+    margin: 143px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.span_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.span_list span {
+    color: #000000;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px 0px #efefef;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+.content {
+    /* width: 500px; */
+    
+    /* max-width: 500px; */
+    
+}
+#span_one{
+    background-color: #0A2640;
+    color: #FFFFFF;
+}
+.span_two{
+
+}
+.span_three{
+
+}
+.left_content{
+   margin: auto 0px;
+   width: 60%;
+
+}
+.left_content h2{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.right_content_second {
+    background-image: url(/img/g.png);
+    width: 444px;
+    height: 523px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.right_content_second img {
+    width: 310px;
+    height: 388px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+/* ================ Footer Css ====================== */
+footer{
+    padding: 56px 100px;
+}
+.top_Footer {
+    width: auto;
+    height: 391px;
+    background-color: #1C3D5B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_footer_inner {
+    width: 50%;
+    padding: 20px;
+}
+.top_footer_inner form {
+    margin: 30px 0px;
+}
+form input[type=search] {
+    width: 268px;
+    box-sizing: border-box;
+    border-radius: 38px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 26px;
+    
+    outline: 0px;
+    border: 0px;
+}
+form a {
+    padding: 12px 30px;
+    background: #65E4A3;
+    border-radius: 26px;
+    color: #0A2640;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+
+.top_Footer h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+.main_footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 20px 0px;
+}
+.rights_footer {
+    width: 30%;
+}
+
+.rights_footer p {
+    font-size: 16px;
+    color: gray;
+    
+}
+#rights {
+    font-size: 16px;
+    color: gray;
+    margin-top: 60px;
+    display: block;
+}
+span.footer_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    display: block;
+}
+.title ul {
+    list-style: none;
+    font-size: 16px;
+    color: gray;
+}
+.title ul li {
+    padding: 0px 0px 20px 0px;
+}
+.title {
+    width: 25%;
+}
+.sitemap {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 70px;
 }
